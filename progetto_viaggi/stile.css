@@ -28,7 +28,8 @@ nav a {
 }
 
 .home-logo img {
-   width: 300px;
-margin: 20px;
+   width: 600px;
 height: auto;
+margin: 20px;
+max-width: 100%;
 } 
