@@ -28,6 +28,7 @@ nav a {
 }
 
 .home-logo img {
-    width: 150px;
-    margin: 20px;
-}
+   width: 300px;
+margin: 20px;
+height: auto;
+} 
