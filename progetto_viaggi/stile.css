@@ -41,12 +41,12 @@ border-radius: 9px;
     width: 450px;
     height: 450px;
     border-radius: 8px;
-    object-fit: cover; /* Consigliato: evita che le foto si deformino */
+    object-fit: cover; 
 }
 
 .rigaimmagini {
     display: flex;
     gap: 20px; /* spazio tra le immagini */
     justify-content: center;
-    flex-wrap: wrap; /* Consigliato: manda a capo su schermi piccoli */
+    flex-wrap: wrap; 
 } 
