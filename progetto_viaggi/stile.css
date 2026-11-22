@@ -46,7 +46,7 @@ border-radius: 9px;
 
 .rigaimmagini {
     display: flex;
-    gap: 20px; /* spazio tra le immagini */
+    gap: 20px; 
     justify-content: center;
     flex-wrap: wrap; 
 } 
