@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stile.css">
+    <link rel="stylesheet" href="{{url_for('static'),filename=stile.css}}">
     <title>Il nostro sito di viaggi</title>
 
     
@@ -14,10 +14,10 @@
 
     <nav>
         <a href="index.html">Home</a> |
-        <a href="viaggi.html">Tutti i viaggi</a> |
-        <a href="destinazioni.html">Destinazioni</a> |
-        <a href="chi-siamo.html">Chi siamo</a> |
-        <a href="contatti.html">Contatti</a>
+        <a href="{{ url_for('tutti-i-viaggi') }}">Tutti i viaggi</a> |
+        <a href="{{ url_for('destinazioni') }}">Destinazioni</a> |
+        <a href="{{ url_for('chi-siamo') }}">Chi siamo</a> |
+        <a href="{{ url_for('contatti') }}">Contatti</a>
     </nav>
 
     <main>
