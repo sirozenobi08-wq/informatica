@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static'),filename=stile.css}}">
+    <title>Il nostro sito di viaggi</title>
+
+    
+</head>
+
+<body>
+
+    <h1>VoliAmo</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="{{ url_for('tutti-i-viaggi') }}">Tutti i viaggi</a> |
+        <a href="{{ url_for('destinazioni') }}">Destinazioni</a> |
+        <a href="{{ url_for('chi-siamo') }}">Chi siamo</a> |
+        <a href="{{ url_for('contatti') }}">Contatti</a>
+    </nav>
+
+    <main>
+    <section class="rigaimmagini">
+        <img class="immagine" src="{{ url_for ('static', filename='logo.jpg') }} ">
+        <img class="immagine" src="{{ url_for ('static', filename='ny.jpg') }}">
+        <img class="immagine" src="{{ url_for ('static', filename='deserto.jpg') }}"> 
+    </section>
+</main>
+<div> {%block contenuto%} {%endblock%}</div>
+
+</body>
+</html>
+
+   
